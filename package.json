@@ -1,0 +1,36 @@
+{
+  "name": "traktor-history",
+  "version": "0.1.0",
+  "description": "Convert Traktor NML data into JSON ",
+  "main": "convert.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-heller/traktor-history.git"
+  },
+  "keywords": [
+    "traktor",
+    "nml",
+    "music",
+    "dj"
+  ],
+  "author": "sam@faitaccomp.li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sam-heller/traktor-history/issues"
+  },
+  "homepage": "https://github.com/sam-heller/traktor-history#readme",
+  "dependencies": {
+    "fast-glob": "^3.2.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "shorthash": "0.0.2",
+    "xml2js": "^0.4.23"
+  }
+}
